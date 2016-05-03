@@ -46,6 +46,9 @@ header .second-row .second-paragraph {
 header .second-row .text a {
 	margin-right: 30px;
 }
+header .second-row .text a:hover img {
+	transform: scale(1.1);
+}
 header .menu > li > a {
 	color: #010101;
 	font-size: 22px;
@@ -159,12 +162,18 @@ footer .second-row input[type="submit"] {
 	font-size: 16px;
 	border-radius: 5px;
 }
+footer .second-row input[type="submit"]:hover {
+	transform:scale(1.1);
+}
 footer .third-row {
 	margin-bottom: 50px;
 }
 footer .third-row a {
 	display: inline-block;
 	margin-right: 40px;
+}
+footer .third-row a:hover {
+	transform:scale(1.1);
 }
 footer .third-row a:last-child {
 	margin-right: 0;

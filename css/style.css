@@ -10,13 +10,6 @@ html, body {
 	height: 1px;
 	background-color: #313841;
 }
-.container-fluid {
-	width: 1400px;
-}
-.container {
-	width: 940px !important;
-	padding: 0!important;
-}
 .padding-zero {
 	padding: 0;
 }

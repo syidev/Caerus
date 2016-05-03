@@ -47,7 +47,7 @@ header .second-row .text a {
 	margin-right: 30px;
 }
 header .second-row .text a:hover img {
-	transform: scale(1.1);
+	opacity: 0.5;
 }
 header .menu > li > a {
 	color: #010101;
@@ -163,7 +163,7 @@ footer .second-row input[type="submit"] {
 	border-radius: 5px;
 }
 footer .second-row input[type="submit"]:hover {
-	transform:scale(1.1);
+	opacity: 0.5;
 }
 footer .third-row {
 	margin-bottom: 50px;
@@ -173,7 +173,7 @@ footer .third-row a {
 	margin-right: 40px;
 }
 footer .third-row a:hover {
-	transform:scale(1.1);
+	opacity: 0.5;
 }
 footer .third-row a:last-child {
 	margin-right: 0;

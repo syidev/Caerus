@@ -1,3 +1,7 @@
+* {
+	transition-property: all;
+    transition-duration: 1s;
+}
 html, body {
 	margin: 0;
 	padding: 0;
@@ -11,8 +15,12 @@ html, body {
 	background-color: #313841;
 }
 .padding-zero {
-	padding: 0;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
 }
+
+/*--------- Header ---------*/
+
 header {
 	background-color: #fcdb00;
 	height: 743px;
@@ -63,13 +71,14 @@ header .menu {
 	list-style: none;
 	padding-left: 0;
 	margin-top: 8px;
+	float: right;
 }
 header .menu > li {
 	display: inline-block;
 	margin-right: 70px;
 }
 header .menu > li:last-child {
-	margin-right: 18px;
+	margin-right: 0;
 }
 header .second-row .iqhub-ipad {
 	background-image: url(../img/iqhub-ipad.png);
@@ -85,6 +94,9 @@ header .second-row .iqhub-ipad img {
 	margin: 190px auto 0;
 	display: block;
 }
+
+/*--------- Main ---------*/
+
 main {
 	background-color: white;
 	min-height: 750px;
@@ -118,9 +130,12 @@ main .second-row h3 {
 main .second-row p {
 	font-size: 16px;
 }
+
+/*--------- Footer ---------*/
+
 footer {
 	background-color: #010101;
-	height: 750px;
+	height: auto;
 }
 footer .first-row {
 	margin-bottom: 30px;
@@ -192,4 +207,37 @@ footer menu {
 footer .fourth-row .menu li > a {
 	color: white;
 	font-size: 16px;
+}
+
+/*--------- Media queries ---------*/
+
+@media screen and (max-width:767px) {
+	header .first-row .logo {
+		display: block;
+		width: 177px;
+		margin: 0 auto;
+	}
+	header .first-row nav .menu {
+		width: 347px;
+		margin: 50px auto 0;
+		float: none;
+	}
+	footer .second-row input[type="text"] {
+		width: 450px;
+		margin-bottom: 20px;
+	}
+	footer .fourth-row {
+		margin-bottom: 50px;
+	}
+	footer .fourth-row .wrap {
+		display: flex;
+		flex-direction: column;
+	}
+	footer .fourth-row .address {
+		order: 2;
+		margin-top: 30px;
+	}
+	footer .fourth-row .navigation {
+		order: 1;
+	}
 }

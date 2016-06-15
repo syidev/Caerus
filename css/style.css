@@ -80,7 +80,7 @@ header .second-row .iqhub-ipad {
 	background-image: url(../img/iqhub-ipad.png);
 	height: 470px;
 	width: 316px;
-	right: 68px;
+	right: 50px;
 	top: 5px;
 	position: absolute;
 }
@@ -94,7 +94,7 @@ header .second-row .iqhub-ipad img {
 /*--------- Main ---------*/
 
 main {
-	background-color: white;
+	background-color: #ffffff;
 	min-height: 750px;
 	color: #010101;
 }
